@@ -1,0 +1,12 @@
+home_page:
+  path: /
+  controller: App\Controller\TodoController::showAction
+create_page:
+  path: /create
+  controller: App\Controller\TodoController::createAction
+edit_page:
+  path: /edit/{id}
+  controller: App\Controller\TodoController::editAction
+details_page:
+  path: /details/{id}
+  controller: App\Controller\TodoController::detailsAction
